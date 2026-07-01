@@ -3,9 +3,9 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ReproLayer — Turn AI agent failures into regression tests",
+  title: "ReproLayer — Reliability reviews for AI agents",
   description:
-    "ReproLayer helps AI-native teams investigate production agent failures, reproduce root causes, and convert failures into regression tests.",
+    "ReproLayer helps AI-agent teams review production failures, find recurring patterns, and turn high-risk incidents into reproducible regression test specs.",
 };
 
 export default function RootLayout({
